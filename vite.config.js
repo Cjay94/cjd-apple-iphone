@@ -7,8 +7,8 @@ export default defineConfig({
   plugins: [react(), sentryVitePlugin({
     org: "chad-jephthah",
     project: "javascript-react",
-    base: "/cjd-apple-iphone",
   })],
+  base: "/cjd-apple-iphone",
 
   build: {
     sourcemap: true
